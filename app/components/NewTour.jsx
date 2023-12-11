@@ -22,7 +22,7 @@ function NewTour() {
   const {name,slug, description} = dataTour;
 
   return (
-    <div className="flex flex-row pt-14 pb-[75px] justify-center gap-5" id="header-new-tour">
+    <div className="flex flex-row pt-14 pb-[75px] justify-center gap-5" id="header-new-tour" >
         <div className="relative w-[440px] h-[315px]">
           <Image src={ImgNewTour} 
               alt={`${""} Image`}

@@ -8,18 +8,20 @@ const Header = () => {
   return (
     <div className="w-screen h-20 px-[75px]  flex flex-row justify-between items-center">
         <div className="flex gap-1">
-          <Image src={Logo} width={45} height={45} alt="Logo" style={{width: 'auto', height: 'auto'}}/>
+          <Link href="/">
+            <Image data-cy="h-logo" src={Logo} width={45} height={45} alt="Logo" style={{width: 'auto', height: 'auto'}}/>
+          </Link>
           <div className="flex flex-col">
             <h1 className="text-xl font-bold">Ravel</h1>
             <span className="text-xs">Travel Solution by Randy</span>
           </div>
         </div>
         <div className="flex gap-5 font-bold">
-          <a href="" className="text-green-500">
+          <Link href="/" className="text-green-500" data-cy="h-nav-home">
             Home
-          </a>
-          <a href="">Tempat Lain</a>
-          <a href="">Testimoni</a>
+          </Link>
+          <a href="" data-cy="h-nav-other-place">Tempat Lain</a>
+          <a href="" data-cy="h-nav-testimoni">Testimoni</a>
         </div>
         <div className="flex items-center gap-2">
           <span>Halo, Reza</span>
