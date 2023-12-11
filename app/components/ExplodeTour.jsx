@@ -1,6 +1,6 @@
 import React from 'react'
 import TourList from './TourList'
-import dataTour from '@/app/data/ExplodeTour.json'
+import dataTour from '@/app/data/explodeTour.json'
 
 
 function ExplodeTour() {
