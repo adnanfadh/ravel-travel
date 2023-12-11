@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Logo from "@/assets/logo.png";
 import User from "@/assets/users.png";  
+import Link from "next/link";
 
 const Header = () => {
 
